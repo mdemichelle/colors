@@ -1,0 +1,31 @@
+.navigation{
+    position: fixed;
+    padding: 30px;
+
+   &__titulo{
+       color: #614f4b;
+       font-weight: $bold;
+       font-size: $xxx-large;
+   }
+
+   &__buscador{
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+
+    &_span{
+       color: #6c5d5a;
+       font-size: $x-large;
+       font-weight: $regular;
+       margin: 0.625rem 0.9375rem 0 0;
+    }
+
+    &_input{
+        width: 20%;
+    }
+   }
+}
+
+.colors{
+    padding-top: 15%;
+}

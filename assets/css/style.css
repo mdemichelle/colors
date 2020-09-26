@@ -9,4 +9,39 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+.navigation {
+  position: fixed;
+  padding: 30px;
+}
+.navigation__titulo {
+  color: #614f4b;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+.navigation__buscador {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.5rem;
+}
+.navigation__buscador_span {
+  color: #6c5d5a;
+  font-size: 1.875rem;
+  font-weight: 400;
+  margin: 0.625rem 0.9375rem 0 0;
+}
+.navigation__buscador_input {
+  width: 20%;
+}
+
+.colors {
+  padding-top: 15%;
+}
+
+.input {
+  border-radius: 5px;
+  border: 1px solid #8e706a;
+  font-size: 1.875rem;
+  color: #4d4948;
+}
+
 /*# sourceMappingURL=style.css.map */
