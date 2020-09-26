@@ -12,11 +12,14 @@ body {
 .navigation {
   position: fixed;
   padding: 30px;
+  width: 100%;
+  background-color: #FFFFFF;
 }
 .navigation__titulo {
-  color: #614f4b;
+  color: #5a4d4d;
   font-weight: 700;
   font-size: 2.5rem;
+  display: inline-block;
 }
 .navigation__buscador {
   display: flex;
@@ -24,7 +27,7 @@ body {
   margin-top: 2.5rem;
 }
 .navigation__buscador_span {
-  color: #6c5d5a;
+  color: #755d5d;
   font-size: 1.875rem;
   font-weight: 400;
   margin: 0.625rem 0.9375rem 0 0;
@@ -34,14 +37,98 @@ body {
 }
 
 .colors {
-  padding-top: 15%;
+  padding-top: 20%;
+  margin: 0 15px 0 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #FFFFFF;
+}
+.colors__contenido {
+  width: 20%;
+  display: inline-block;
+  border: 1px solid gray;
+  margin: 0 15px 15px 15px;
+}
+.colors__contenido_fondo {
+  height: 80px;
+}
+.colors__name {
+  color: #000000;
 }
 
+@media (max-width: 1024px) {
+  .colors {
+    padding-top: 25%;
+    margin: 0 15px 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #FFFFFF;
+  }
+  .colors__contenido {
+    width: 25%;
+    display: inline-block;
+    border: 1px solid gray;
+    margin: 0 15px 15px 15px;
+  }
+}
+@media (max-width: 800px) {
+  .colors {
+    padding-top: 30%;
+    margin: 0 15px 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #FFFFFF;
+  }
+  .colors__contenido {
+    width: 30%;
+    display: inline-block;
+    border: 1px solid gray;
+    margin: 0 15px 15px 15px;
+  }
+}
+@media (max-width: 640px) {
+  .navigation {
+    padding-left: 0;
+  }
+  .navigation__titulo {
+    font-weight: 700;
+    font-size: 2.1875rem;
+    padding: 0.625rem;
+  }
+  .navigation__buscador {
+    display: flex;
+    flex-direction: column;
+  }
+  .navigation__buscador_span {
+    padding-right: 0;
+    align-self: center;
+    margin-bottom: 10px;
+  }
+  .navigation__buscador_input {
+    width: 50%;
+    align-self: center;
+  }
+
+  .colors {
+    padding-top: 40%;
+  }
+  .colors__contenido {
+    width: 50%;
+  }
+}
+@media (max-width: 500px) {
+  .colors {
+    padding-top: 60%;
+  }
+}
 .input {
   border-radius: 5px;
-  border: 1px solid #8e706a;
+  border: 1px solid #000000;
   font-size: 1.875rem;
-  color: #4d4948;
+  color: #000000;
 }
 
 /*# sourceMappingURL=style.css.map */
