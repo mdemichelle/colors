@@ -1,0 +1,6 @@
+//Max-width
+@mixin respond-to($break-point){
+    @media (max-width:$break-point){
+      @content;
+    }
+  }
